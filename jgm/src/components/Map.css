@@ -1,0 +1,26 @@
+
+div{
+    background-color: #fff;
+    
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.design{
+    padding: 0px;
+    
+}
+
+ h1 h2{
+   margin: 0px 20px; 
+}
+
+.field{
+    border: solid 2px black;
+    background-color: rgb(198, 213, 240);
+}

@@ -1,0 +1,27 @@
+.peca{
+    background-color: rgb(139, 228, 180);
+    border: solid 1px rgb(236, 74, 74);
+    margin: 10px;
+    width: 140px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+[hidden]{
+    background-color: red;
+}
+
+img{
+    max-width: 140px;
+    max-height: 100px;
+    width: 120px;
+    height: 100px;
+    
+}
+
+[choise="true"] {
+    background-color: rgb(231, 180, 218);
+}
